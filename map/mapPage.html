@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Load Leaflet from CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet-src.js"></script>
+
+    <!-- Load Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet"></script>
+
+    <!-- Esri Leaflet Geocoder -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/esri-leaflet-geocoder/dist/esri-leaflet-geocoder.css"
+    />
+    <script src="https://unpkg.com/esri-leaflet-geocoder"></script>
+
+    <title>Document</title>
+    
+</head>
+<body>
+
+  <header>
+    <a href="#" class="logo">
+        <img src="../home/icon.png" alt="Remixicon" class="icnPng"/>
+        <!-- <i class="ri-home-heart-fill"> -->
+            <span>Logo</span>
+        </i>
+    </a>
+
+    <ul class="navbar">
+      <li><a href="../home/index.html" >Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="../map/mapPage.html">Map</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+
+    <div class="main">
+        <a href="../signInUp/signInPage.html" class="user"><i class="ri-user-fill"></i>Sign In</a>
+        <!-- <a href="#">Register</a> -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+
+</header>
+  
+    <div class="bg-gradiant"></div>
+
+    <div id="map"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --bg-color: #222327;
+  --text-color: #fff;
+  --main-color: #ffc75f;
+}
+
+body {
+  /* min-height: 100vh; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-image: linear-gradient(
+    0deg,
+    rgba(31, 31, 31, 1) 0%,
+    rgba(108, 105, 220, 1) 100%
+  ); */
+  background-color: #222327;
+}
+
+/* .bg-gradiant {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+    0deg,
+    rgba(31, 31, 31, 1) 0%,
+    rgba(108, 105, 220, 1) 100%
+  );
+} */
+
+header {
+  /* position: fixed; */
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 28px 12%;
+  transition: all 0.5s ease;
+}
+
+.icnPng {
+  width: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo i {
+  color: var(--main-color);
+  font-size: 28px;
+  margin-right: 3px;
+}
+
+.logo span {
+  color: var(--text-color);
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 5px 0;
+  margin: 0px 30px;
+  transition: all 0.5s ease;
+}
+
+.navbar a:hover {
+  color: var(--main-color);
+}
+
+.navbar a.active {
+  color: var(--main-color);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  /* color: var(--text-color); */
+}
+
+.main a {
+  margin-right: 25px;
+  margin-left: 10px;
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+
+.user i {
+  color: var(--main-color);
+  font-size: 28px;
+  margin-right: 7px;
+}
+
+.main a:hover {
+  color: var(--main-color);
+}
+
+#menu-icon {
+  font-size: 25px;
+  color: var(--text-color);
+  cursor: pointer;
+  z-index: 10001;
+  display: none;
+}
+
+#map {
+  position: fixed;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  border-radius: 15px;
+}
